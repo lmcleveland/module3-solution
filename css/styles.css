@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: orange;
+}
+
+/* Styles for the tall section */
+.tall-section {
+  height: 1000px;
+  background-color: #e0e0e0; /* Change to desired color */
+  padding: 20px;
+}
+.visible-xs {
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+    }
+    .section {
+        flex: 1;
+        margin: 1em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section {
+        flex: 1 1 48%; /* Adjusted width to accommodate margin */
+        margin: 1%; /* Added margin to create space between sections */
+    }
+    .section3 {
+        flex: 1 1 100%;
+        margin-top: 1em; /* Ensures section 3 has top margin */
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
+
+/* Mobile dropdown menu styles */
+.navbar-nav > li > a {
+  background-color: #ddd; /* Change to desired color */
+  color: #333; /* Change to desired color */
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #ccc; /* Change to desired color */
+}
