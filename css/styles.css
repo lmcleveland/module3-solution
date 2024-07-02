@@ -55,7 +55,7 @@ body {
 }
 
 /* Mobile dropdown menu styles */
-.navbar-nav > li > a {
+.nav navbar-nav > li > a {
   background-color: #ddd; 
   color: #333; 
   width: 100%;
@@ -64,6 +64,6 @@ body {
   border: 1px solid black;
 }
 
-.navbar-nav > li > a:hover {
+.nav navbar-nav > li > a:hover {
   background-color: #ccc; 
 }
