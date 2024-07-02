@@ -10,10 +10,9 @@ body {
     background-color: orange;
 }
 
-/* Styles for the tall section */
 .tall-section {
   height: 1000px;
-  background-color: #e0e0e0; /* Change to desired color */
+  background-color: #e0e0e0; 
   padding: 20px;
 }
 .visible-xs {
@@ -45,12 +44,12 @@ body {
         flex-wrap: wrap;
     }
     .section {
-        flex: 1 1 48%; /* Adjusted width to accommodate margin */
-        margin: 1%; /* Added margin to create space between sections */
+        flex: 1 1 48%; 
+        margin: 1%; 
     }
     .section3 {
         flex: 1 1 100%;
-        margin-top: 1em; /* Ensures section 3 has top margin */
+        margin-top: 1em; 
     }
 }
 
@@ -62,12 +61,12 @@ body {
 
 /* Mobile dropdown menu styles */
 .navbar-nav > li > a {
-  background-color: #ddd; /* Change to desired color */
-  color: #333; /* Change to desired color */
+  background-color: #ddd; 
+  color: #333; 
   width: 100%;
   text-align: center;
 }
 
 .navbar-nav > li > a:hover {
-  background-color: #ccc; /* Change to desired color */
+  background-color: #ccc; 
 }
