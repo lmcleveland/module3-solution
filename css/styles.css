@@ -55,7 +55,7 @@ body {
 }
 
 /* Mobile dropdown menu styles */
-.nav navbar-nav > li > a {
+.nav navbar-nav > li {
   background-color: #ddd; 
   color: #333; 
   width: 100%;
