@@ -10,6 +10,19 @@ body {
     background-color: orange;
 }
 
+.navbar-nav > .visible-xs {
+  background-color: #ddd; 
+  color: #333; 
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.navbar-nav > .visible-xs > a:hover {
+  background-color: #ccc; 
+}
+
 .tall-section {
   height: 1000px;
   background-color: #e0e0e0; 
@@ -54,16 +67,3 @@ body {
     }
 }
 
-/* Mobile dropdown menu styles */
-.nav navbar-nav > {
-  background-color: #ddd; 
-  color: #333; 
-  width: 100%;
-  text-align: center;
-  margin: 5px;
-  border: 1px solid black;
-}
-
-.nav navbar-nav > li > a:hover {
-  background-color: #ccc; 
-}
